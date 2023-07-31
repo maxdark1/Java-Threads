@@ -19,5 +19,7 @@ public class MainRunnableFuncional {
 
         new Thread(nombre, "Nombre del Hilo 1").start();
         new Thread(nombre, "Nombre del Hilo 2").start();
+
+        System.out.println("Continuando con la ejecucion del metodo Main");
     }
 }
